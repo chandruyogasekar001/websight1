@@ -177,15 +177,15 @@ function App() {
     document.querySelectorAll(".counter").forEach((counter) => counterObserver.observe(counter));
 
     // ========== Loader ==========
-    function hideLoaderAndShowContent() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("content").style.display = "block";
-      const loaderDoneEvent = new CustomEvent("loader-done");
-      window.dispatchEvent(loaderDoneEvent);
-    }
-    window.addEventListener("load", () => {
-      setTimeout(hideLoaderAndShowContent, 1000);
-    });
+    // function hideLoaderAndShowContent() {
+    //   document.getElementById("loader").style.display = "none";
+    //   document.getElementById("content").style.display = "block";
+    //   const loaderDoneEvent = new CustomEvent("loader-done");
+    //   window.dispatchEvent(loaderDoneEvent);
+    // }
+    // window.addEventListener("load", () => {
+    //   setTimeout(hideLoaderAndShowContent, 1000);
+    // });
 
     // ========== Ripple Button ==========
     const buttons = document.querySelectorAll(".ripple-btn");
@@ -221,7 +221,7 @@ function App() {
     <div className="App margin bg-1">
       <>
   {/* Hello world */}
-  <div id="loader">
+  {/* <div id="loaderx">
     <div className="spinner-wrapper">
       <img
         src="https://demo.awaikenthemes.com/rideup/wp-content/uploads/2025/08/favicon.png"
@@ -229,8 +229,8 @@ function App() {
       />
       <div className="semi-circle" />
     </div>
-  </div>
-  <div id="content">
+  </div> */}
+  <div id="contentx">
     <div className="flotz">
       <div className="flotz1 z1">
         <i className="fa-solid fa-file" />
@@ -2455,7 +2455,7 @@ function App() {
         </div>
       </div>
     </section>
-    <section className="faq bg-1 pdtb pdtb2">
+    <section className="faq bg-1 pdtb pdtb2 left-right">
       <div className="contains1">
         <div
           className="contains-wrapper"
@@ -2560,7 +2560,7 @@ function App() {
                   moments.
                 </p>
                 <div className="carousel-wrapper">
-                  <div className="testimonial-slider slider">
+                  <div className="testimonial-slider slider hh">
                     <div className="item">
                       <div className="mt50">
                         <svg

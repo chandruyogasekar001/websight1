@@ -3617,7 +3617,9 @@ p{
   background: #eee;
   margin: 10px 0;
 }
-
+.hh{
+  padding: 10px;
+}
 /* 2 per row on ≥1200px */
 @media (max-width: 1200px) {
   .item3xx {
@@ -3625,7 +3627,7 @@ p{
   }
 }
 .w80{
-  width: 79%;
+  width: 75%;
 }
 .jk{
   padding-left: 50px;
