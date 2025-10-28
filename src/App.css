@@ -2450,10 +2450,17 @@ body {
   border-bottom-color: transparent !important;
 }
 
-
+.btz{
+  margin-bottom: 10px;
+}
 
 
 @media (max-width: 767px) {
+ .btz {
+   
+ 
+   margin-bottom: 50px !important;
+}
  .reviews {
      margin-top: 0rem !important; 
 }
@@ -2505,7 +2512,7 @@ flex-direction:column !important;
 
   .Readytoride {
 
-    height: 92vh !important;
+    height: 95vh !important;
 
   }
 
